@@ -6,11 +6,16 @@
 
 .shadow-text {
   text-shadow: -10px -10px 10px black,
-   -20px -20px 15px black, -30px -30px 30px black, -5px -5px 5px black;
+   -20px -20px 15px black, -30px -30px 20px black, -5px -5px 5px black;
+}
+
+.shadow-box {
+  box-shadow: -6px -6px 10px black, -7px -7px 20px white;
 }
 
 .fill-bg {
-  
+  background-color: rgb(58, 50, 50);
+    height: 2vh;
 }
 
 .footer-bg {
@@ -26,24 +31,27 @@
   background-color: #013f72;
 }
 
-.body {
+.body1 {
   height: 45vh;
 }
+
+.body2 {
+  height: 80vh;
+}
+.body3 {
+  height: 10vh;
+}
+
 
 .link-color {
   color: white!important;
 }
 
 .me-pic {
-
   max-height: 35vh;
   object-fit: cover;
-  margin-left: 50px;
-  margin-bottom: 190px;
-   border-radius: 10%;
-   border-color: #013f72;
-   border-width: 10px;
-   border-style: solid;
+  border-radius:10%;
+
 }
 .bg-blue-grad {
   background-image: linear-gradient(#005ca5, #01203c);
