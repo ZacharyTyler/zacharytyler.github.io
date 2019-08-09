@@ -5,14 +5,111 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Landing Page</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<div class="container-fluid">
 
-</body>
+  <!--Header-->
+  <div class="row header-bg" id="top">
+    <div class="col-3"></div>
+    <div class="col text-center text-white align-self-center">
+      <h1 class="shadow-text pt-15 pl-4">
+        Zachary Tyler
+      </h1>
+    </div>
+    <div class="col-3">
+      <ul class="nav text-white">
+        <li class="nav-item">
+          <a class="nav-link link-color" href="#sect1">Sect1</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link-color" href="#sect2">Sect2</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link-color" href="#bottom">Bottom</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!--/Header-->
+
+
+  <!--Body-->
+  <div class="row body-bg">
+    <div class="col">
+      <!--Body1-->
+      <div class="text-white row text-center align-content-center pt-5 body1-bg">
+        <div class="col-12">
+          <h2>About Me</h2>
+        </div>
+      </div>
+      <div class="text-white row body text-center align-content-center body1-bg" id="sect1">
+        <div class="col-3 me-bg text-left">
+          <img src="/pics/IMG_20160222_142015319.jpg" alt="Picture of me" class="me-pic">
+        </div>
+        <div class="col-5">Top Middle</div>
+        <div class="col-4">Top Right</div>
+      </div>
+      <!--/Body1-->
+      <!--Body2-->
+      <div class="text-white row body text-center align-content-center body1-bg">
+        <div class="col-3">Upper Left Middle</div>
+        <div class="col-3">Upper Middle Left</div>
+        <div class="col-3">Upper Middle Right</div>
+        <div class="col-3">Upper Right Middle</div>
+      </div>
+      <!--Body2-->
+      <!--Body3-->
+      <div class="row text-center align-content-center pt-5" id="sect2">
+        <div class="col-12">
+          <h2>Projects</h2>
+        </div>
+      </div>
+      <div class="row body text-center align-content-center">
+        <div class="col-3">Lower Left Middle</div>
+        <div class="col-3">Lower Middle Left</div>
+        <div class="col-3">Lower Middle Right</div>
+        <div class="col-3">Lower Right Middle</div>
+      </div>
+      <!--Body3-->
+      <!--Body4-->
+      <div class="row body text-center align-content-center">
+        <div class="col-4">Bottom Left</div>
+        <div class="col-4">Bottom Middle</div>
+        <div class="col-4">Bottom Right</div>
+      </div>
+      <!--Body4-->
+    </div>
+  </div>
+  <!--/Body-->
+
+
+  <!--Footer-->
+  <div class="row footer-bg align-items-center text-white text-center" id="bottom">
+    <div class="col-3">Placeholder</div>
+    <div class="col">
+      <h3>
+        Here is more test text
+      </h3>
+    </div>
+    <div class="col-3">
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link link-color" href="#top">Top</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link-color" href="#middle">Middle</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link-color" href="#bottom">Bottom</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!--/Footer-->
 
 </html>

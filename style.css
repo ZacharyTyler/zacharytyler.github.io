@@ -1,0 +1,37 @@
+.header-bg {
+   background-image: url(http://getwallpapers.com/wallpaper/full/7/c/6/765090-most-popular-technology-background-images-1920x1080-hd-for-mobile.jpg);
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.shadow-text {
+  text-shadow: -10px -10px 10px black,
+   -20px -20px 15px black, -30px -30px 30px black, -5px -5px 5px black;
+}
+
+.footer-bg {
+  background-color: red;
+  height: 10vh;
+}
+
+.body1-bg {
+  background-color: #002c18;
+}
+
+.body {
+  height: 45vh;
+}
+
+.link-color {
+  color: white!important;
+}
+
+.pt-15 {
+  padding-top: 10rem;
+}
+
+.me-pic {
+  height: 30vh;
+  border-radius: 20%;
+  margin: 50px;
+}
