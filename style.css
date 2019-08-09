@@ -9,6 +9,10 @@
    -20px -20px 15px black, -30px -30px 30px black, -5px -5px 5px black;
 }
 
+.fill-bg {
+  
+}
+
 .footer-bg {
   background-color: red;
   height: 10vh;
@@ -16,6 +20,10 @@
 
 .body1-bg {
   background-color: #002c18;
+}
+
+.body2-bg {
+  background-color: #013f72;
 }
 
 .body {
@@ -26,12 +34,18 @@
   color: white!important;
 }
 
-.pt-15 {
-  padding-top: 10rem;
-}
-
 .me-pic {
-  height: 30vh;
-  border-radius: 20%;
-  margin: 50px;
+
+  max-height: 35vh;
+  object-fit: cover;
+  margin-left: 50px;
+  margin-bottom: 190px;
+   border-radius: 10%;
+   border-color: #013f72;
+   border-width: 10px;
+   border-style: solid;
+}
+.bg-blue-grad {
+  background-image: linear-gradient(#005ca5, #01203c);
+  border-radius: 5%
 }
