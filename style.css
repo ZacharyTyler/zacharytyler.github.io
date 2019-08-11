@@ -18,9 +18,8 @@
     height: 2vh;
 }
 
-.footer-bg {
-  background-color: red;
-  height: 10vh;
+.footer-vh {
+  height: 15vh;
 }
 
 .body1-bg {
@@ -56,4 +55,16 @@
 .bg-blue-grad {
   background-image: linear-gradient(#005ca5, #01203c);
   border-radius: 5%
+}
+
+.bg-green-grad {
+  background-image: linear-gradient(#006236, #00160c);
+  border-radius: 5%
+}
+
+.card-size {
+  height: 80vh;
+  width: 75vw;
+  margin-left: auto;
+  margin-right: auto;
 }
