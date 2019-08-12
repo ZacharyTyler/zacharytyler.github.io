@@ -19,7 +19,7 @@
 }
 
 .footer-vh {
-  height: 15vh;
+  min-height: 20vh;
 }
 
 .body1-bg {
@@ -31,25 +31,29 @@
 }
 
 .body1 {
-  height: 45vh;
+  min-height: 44vh;
 }
 
 .body2 {
-  height: 80vh;
+ max-height: 77.5vh;
 }
 .body3 {
-  height: 10vh;
+  min-height: 10vh;
 }
 
+.name-vh {
+  min-height: 95vh;
+}
 
 .link-color {
   color: white!important;
 }
 
 .me-pic {
-  max-height: 35vh;
+  max-height: 18rem;
+  max-width: 18rem;
   object-fit: cover;
-  border-radius:10%;
+  border-radius:15%;
 
 }
 .bg-blue-grad {
@@ -63,8 +67,16 @@
 }
 
 .card-size {
-  height: 80vh;
-  width: 75vw;
+  max-height: 80vh;
+  max-width: 70vw;
   margin-left: auto;
   margin-right: auto;
+}
+
+.carousel-position {
+  position: static;
+}
+
+.font-size {
+  font-size: 8vh;
 }
